@@ -111,7 +111,7 @@ client.on('message', message => {
   			var voiceChannel = message.member.voiceChannel;
       		message.member.voiceChannel.join()
         	.then(connection => { // Connection is an instance of VoiceConnection
-          		const dispatcher = connection.playFile('Hiroyuki Sawano -「Through My Blood」ft. Aimer & Mika Kobayashi - Epic Battle Music.mp3', {volume:0.25});
+          		const dispatcher = connection.playFile('ILoveLeague.mp3', {volume:0.25});
           		dispatcher.on("end", end => {
           			voiceChannel.leave();
           		});

@@ -14,13 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cleverbot-node": "^0.3.11",
     "discord.js": "^11.2.1",
     "ffmpeg-binaries": "^3.2.2-3",
     "google-images": "^2.1.0",
-    "mitsuku-api": "^0.2.1",
     "opusscript": "0.0.4",
-    "wolke-api": "^1.0.0",
     "ytdl-core": "^0.18.2"
   }
 }
